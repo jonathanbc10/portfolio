@@ -34,6 +34,8 @@ import jean from "./testimonials/jean.jpeg";
 import aliscraper from "./aliscraper.png";
 import memory from "./memory.png";
 import amongus from "./amongus.png";
+import breakout from "./breakout.png";
+import linkmee from "./linkmee.png";
 
 export {
   // web elements
@@ -73,4 +75,6 @@ export {
   aliscraper,
   memory,
   amongus,
+  breakout,
+  linkmee
 };

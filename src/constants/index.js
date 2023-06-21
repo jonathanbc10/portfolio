@@ -32,6 +32,8 @@ import {
     amongus,
     memory,
     aliscraper,
+    breakout,
+    linkmee
 } from "../assets";
 
 export const navLinks = [
@@ -125,11 +127,30 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Full Stack Developer",
+        company_name: "Hydrogn - Freelance Group",
+        icon: hydrogn,
+        iconBg: "#383E56",
+        date: "Mar 2016 - Current",
+        points: [
+            "Created customized software solutions for clients, emphasizing high-quality web applications.",
+            "Participated in all stages of the software development lifecycle as a freelance developer.",
+            "Designed and implemented databases using technologies like MongoDB and MySQL.",
+            "Developed attractive and functional user interfaces using JavaScript and frameworks like ReactJS.",
+            "Utilized version control tools like Git and collaborated on platforms like GitHub.",
+            "Worked on ServiceNow projects, configuring the platform and developing custom processes using HTML5, CSS3, and JavaScript.",
+            "Collaborated closely with clients to understand their needs and goals, ensuring perfect alignment of solutions.",
+            "Translated business logic into effective technical solutions, delivering successful results to clients.",
+            "Maintained focus on delivering efficient and high-quality solutions as a Full Stack developer.",
+            "Strived to exceed expectations and deliver scalable, efficient, and easy-to-maintain software products."
+        ],
+    },
+    {
         title: "ServiceNow Analyst/Developer",
         company_name: "Sitin SpA",
         icon: sitin,
         iconBg: "#E6DEDD",
-        date: "March 2020 - March 2022",
+        date: "Mar 2020 - Mar 2022",
         points: [
             "Implemented enhancements across various areas and modules of the ServiceNow platform.",
             "Developed complex logic for SLA modules to align with real service level agreements.",
@@ -145,30 +166,11 @@ const experiences = [
         ],
     },
     {
-        title: "Full Stack Developer",
-        company_name: "Hydrogn - Freelance Group",
-        icon: hydrogn,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Created customized software solutions for clients, emphasizing high-quality web applications.",
-            "Participated in all stages of the software development lifecycle as a freelance developer.",
-            "Designed and implemented databases using technologies like MongoDB and MySQL.",
-            "Developed attractive and functional user interfaces using JavaScript and frameworks like ReactJS.",
-            "Utilized version control tools like Git and collaborated on platforms like GitHub.",
-            "Worked on ServiceNow projects, configuring the platform and developing custom processes using HTML5, CSS3, and JavaScript.",
-            "Collaborated closely with clients to understand their needs and goals, ensuring perfect alignment of solutions.",
-            "Translated business logic into effective technical solutions, delivering successful results to clients.",
-            "Maintained focus on delivering efficient and high-quality solutions as a Full Stack developer.",
-            "Strived to exceed expectations and deliver scalable, efficient, and easy-to-maintain software products."
-        ],
-    },
-    {
         title: "Backend Developer",
         company_name: "Simobi Ltda",
         icon: nologo,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Oct 2016 - Oct 2017",
         points: [
             "Specialized in implementing biometric systems logic for enterprise management and security as a Backend Developer.",
             "Focused on using technologies like .NET and web languages to develop robust and efficient solutions.",
@@ -182,7 +184,7 @@ const experiences = [
         company_name: "Anser S.A",
         icon: anser,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jul 2014 - Aug 2016",
         points: [
             "Played a key role as a Backend Developer in developing web-based systems, focusing on designing, maintaining, and implementing databases and query logic for efficient system operation.",
             "Developed and deployed services on servers, ensuring application availability and optimal performance.",
@@ -197,7 +199,7 @@ const experiences = [
         company_name: "GLOK S.A",
         icon: nologo,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Mar 2012 - Jun 2014",
         points: [
             "Managed and provided support for Linux and Windows Server environments, ensuring the smooth operation of services.",
             "Developed bash and Python scripts to automate tasks, improving efficiency and productivity.",
@@ -305,6 +307,48 @@ const projects = [
         ],
         image: amongus,
         source_code_link: "https://github.com/jonathanbc10/AmongUsArt",
+    },
+    {
+        name: "Breakout",
+        description:
+            "classic arcade game where the player controls a paddle at the bottom of the screen and must use it to bounce a ball against a wall of bricks at the top of the screen, destroying them and earning points.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+        ],
+        image: breakout,
+        source_code_link: "https://github.com/jonathanbc10/Breakout",
+    },
+    {
+        name: "Linkmee",
+        description:
+            "With linkmee, you can create a personalized page with your social media profiles, website, and any other important links you want to share.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "vite-plugin-svgr",
+                color: "green-text-gradient",
+            },
+        ],
+        image: linkmee,
+        source_code_link: "https://github.com/jonathanbc10/linkmee",
     },
 ];
 
